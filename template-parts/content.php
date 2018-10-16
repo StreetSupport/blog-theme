@@ -61,11 +61,6 @@ if ( is_single() ) {
 				<?php ssnblog_posted_on(); ?>
 			</div><!-- .entry-meta -->
 
-			<div class="social-share">
-				<span class="social-share__text">Share this page: </span>
-				<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="streetsupportuk" data-dnt="true"></a>
-				<div class="fb-share-button" data-layout="button"></div>
-			</div>
 		<?php
 		endif; ?>
 	</article>
