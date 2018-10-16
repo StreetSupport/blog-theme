@@ -1683,8 +1683,7 @@ a.more-link {
   .nav {
     width: 960px;
     max-width: 100%;
-    position: relative;
-    margin: 0 auto; }
+    position: relative; }
     .nav .nav__group {
       margin: 0px;
       padding: 0px;

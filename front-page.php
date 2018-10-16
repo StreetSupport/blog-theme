@@ -46,7 +46,7 @@ Template Name: front-page
 	</div>
 </div>
 
-<div class="block block">
+<div class="block">
 	<div class="block__content">
 		<div id="latest-news-posts" class="front-page__news">
 			<h1 class="h1 front-page__news-heading">Latest News</h1>
@@ -58,6 +58,21 @@ Template Name: front-page
         ?>
 			</div>
 			<a href="<?php echo get_site_url (); ?>/category/latest-news" class="btn btn--brand-e"><span class="btn__text">Read More News Stories</span></a>
+		</div>
+	</div>
+</div>
+
+<div class="block block--top-border">
+	<div class="block__content">
+		<div class="container">
+			<h2 class="h2 front-page__news-heading front-page__news-heading--locations">Want news from your area? Select your location from the list below:</h2>
+			<ul class="nav-list--4-col">
+				<?php $locationTerms = get_terms('locations', 'hide_empty=0&hierarchical=0&parent=0');
+					
+					foreach ($locationTerms as $location) { ?>
+				<li><a href="/<?= $location->slug ?>"><?= $location->name ?></a></li>
+				<?php } ?>
+			</ul>
 		</div>
 	</div>
 </div>
