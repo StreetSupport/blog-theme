@@ -1,5 +1,4 @@
 .block {
-
   &__content {
     @include cf();
     width: 100%;
@@ -9,7 +8,12 @@
   &--highlight {
     background: $brand-i;
   }
-  &--offwhite{
+
+  &--offwhite {
   	background: #edeeee;
+  }
+  
+  &--top-border {
+    border-top: 1px solid $brand-k;
   }
 }

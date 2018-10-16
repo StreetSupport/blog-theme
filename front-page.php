@@ -48,8 +48,8 @@ Template Name: front-page
 
 <div class="block">
 	<div class="block__content">
-		<div id="latest-news-posts" class="front-page__news">
-			<h1 class="h1 front-page__news-heading">Latest News</h1>
+		<div class="container">
+			<h1 class="h1">Latest News</h1>
 			<div class="front-page__news-list">
 				<?php query_posts('category_name=latest-news&showposts=3');
 				while ( have_posts() ) : the_post();
@@ -65,12 +65,12 @@ Template Name: front-page
 <div class="block block--top-border">
 	<div class="block__content">
 		<div class="container">
-			<h2 class="h2 front-page__news-heading front-page__news-heading--locations">Want news from your area? Select your location from the list below:</h2>
-			<ul class="nav-list--4-col">
+			<h2 class="h2">Want news from your area? Select your location from the list below:</h2>
+			<ul class="nav-list nav-list--4-col">
 				<?php $locationTerms = get_terms('locations', 'hide_empty=0&hierarchical=0&parent=0');
 					
 					foreach ($locationTerms as $location) { ?>
-				<li><a href="/<?= $location->slug ?>"><?= $location->name ?></a></li>
+				<li><a class="nav-list__link" href="/<?= $location->slug ?>"><?= $location->name ?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
