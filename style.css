@@ -1234,7 +1234,8 @@ img.wp-image-25.alignright {
   padding-top: 2em; }
 
 .entry-meta {
-  font-size: 0.75em;
+  font-size: 1em;
+  line-height: 1.4em;
   padding-bottom: 2em; }
   @media (min-width: 43.75em) {
     .entry-meta {
@@ -1257,6 +1258,13 @@ a.more-link {
 
 a.more-link {
   font-size: 0.8em; }
+
+.cat-links,
+.tags-links,
+.posted-on {
+  display: inline-block;
+  clear: left;
+  margin-bottom: 10px; }
 
 .nav-links {
   font-size: 1rem; }
