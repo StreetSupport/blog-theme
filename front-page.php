@@ -66,11 +66,11 @@ Template Name: front-page
 	<div class="block__content">
 		<div class="container">
 			<h2 class="h2">Want news from your area? Select your location from the list below:</h2>
-			<ul class="nav-list nav-list--4-col">
+			<ul class="link-list link-list--4-col">
 				<?php $locationTerms = get_terms('locations', 'hide_empty=0&hierarchical=0&parent=0');
 					
 					foreach ($locationTerms as $location) { ?>
-				<li><a class="nav-list__link" href="/<?= $location->slug ?>"><?= $location->name ?></a></li>
+				<li><a class="link-list__link" href="/<?= $location->slug ?>"><?= $location->name ?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
