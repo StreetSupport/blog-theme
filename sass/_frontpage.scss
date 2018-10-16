@@ -1,0 +1,198 @@
+.front-page {
+	&__news {
+		padding: 30px 0;
+		text-align: center;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+
+		@include mq($from: m) {
+			width: 960px;
+			max-width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	&__news-heading {
+		margin-top: 0px;
+		margin-bottom: 24px;
+		color: $brand-h;
+		padding: 0 15px;
+		
+		@include mq($from: m) {
+			margin-bottom: 45px;
+		}
+	}
+
+	&__news-list {
+		@include cf();
+		article{
+			width: 100%;
+			float: left;
+			padding: 0;
+			margin-bottom: 2em;
+
+			@include mq($from: m) {
+				width: calc(100% / 3);
+			}
+
+			.news-spacing{
+				padding: 15px;
+				.front-page__news-item__meta{
+					display: block;
+				}	
+			}
+		}
+	}
+
+	&__news-item {
+		background: none;
+		box-sizing: border-box;
+		width: 33%;
+		float: left;
+		text-align: left;
+		.posted-on a {
+			color: #0b9c75;
+			font-weight: bold;
+		}
+		&:nth-child(1n) { padding-right: 0 }
+		&:nth-child(2n) { padding: 0 }
+		&:nth-child(3n) { padding-left: 0 }
+		@include mq($from: m) {
+			&:nth-child(3n+1) {padding-right: 20px; }
+			&:nth-child(3n+2) {padding: 0 10px; }
+			&:nth-child(3n+3) {padding-left: 20px; }
+		}
+		&__news-image {
+			height: 250px;
+			position: relative;
+			.entry-title{
+				line-height: 1.4em;
+				position: absolute;
+				bottom: 15px;
+				margin: 0;
+				left: 15px;
+				width: calc(100% - 30px);
+				color: #fff;
+				font-size: 1.5em;
+				@extend .textShadow;
+			}
+		}
+	}
+
+	&__news-item__snippet {
+		color: $brand-m;
+	}
+
+	&__news-item__meta {
+		@include cf();
+		color: $brand-h;
+		.posted-on { float: left; }
+		.read-more { float: right; }
+	}
+}
+
+.container-cat-titles .entry-header {
+	margin-bottom: 0.5em;
+}
+
+.container-post-excerpt {
+	float: left;
+	width: 100%;
+
+	@include mq($from: xl) {
+		margin-left: 60px;
+		width: calc(100% / 3 * 2);
+		&:nth-child(1n) { padding-right: 10px; }
+		&:nth-child(2n) { padding-left: 10px; }
+	}
+}
+
+.container-post-excerpt > h3 {
+	padding-top: 0.5em;
+	color: $brand-h;
+}
+
+.container-cat-titles > h3 {
+	margin-bottom: -0.5em;
+	color: $brand-h;
+}
+
+.cat-excerpt-entry-header {
+	margin-left: -1em;
+	padding-bottom: 0.25em;
+}
+
+.news-latest-entry-header {
+	margin-left: -1em;
+}
+
+.recent-activity{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 100%;
+	width: 960px !important;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #edeeee;
+	@media screen and (min-width: 640px){
+		max-width: 100%;
+	}
+}
+.front-page__news .container-cat-titles{
+	background: none !important;
+}
+
+// todo: make this default
+@include mq($until: m) {
+	.accordion__item {
+	}
+  .accordion__inner {
+		display: none;
+		&.is-active { display: block; }
+	}
+
+	.recent-activity{
+		padding: 0;
+		background-color: #ea8503;
+	}
+	.container-cat-titles{
+		border-bottom: 2px solid #fff;
+		width: 100%;
+	}
+	.container-cat-titles h1{
+		background-image: url('images/cross.png');
+		background-repeat: no-repeat;
+		background-position: center right 0px;
+		background-size: contain;
+		margin-top: 0.7em;
+		margin-bottom: 0.7em;
+		&.inactive { 
+			display: none;
+		}
+	}
+	.recent-activity div{
+		padding: 0 15px 5px 15px;
+	}
+	.recent-activity h1{
+		color: white;
+		cursor: pointer;
+	}
+	.container-cat-titles li a,
+	.container-cat-titles li a span{
+		color: white;
+	}
+	.container-cat-titles li p{
+		margin-bottom: 15px;
+		margin-top: 5px;
+		color: #555;
+	}
+	.container-cat-titles a span{
+		color: white;
+
+	}
+}

@@ -1,0 +1,21 @@
+.page-header {
+    background-color: $brand-h;
+    color: $brand-e;
+}
+
+.page-title {
+    background-color: $brand-h;
+    font-weight: 100;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    line-height: 1.2em;
+
+    @include mq($from: m) {
+      width: 960px;
+    }
+}
+
+.page-title > a {
+    color: $brand-e;
+}

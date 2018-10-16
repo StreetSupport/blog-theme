@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'museo_sans_rounded500';
+    src: url('fonts/MuseoSansRounded-500-webfont.eot');
+    src: url('fonts/MuseoSansRounded-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansRounded-500-webfont.woff2') format('woff2'),
+         url('fonts/MuseoSansRounded-500-webfont.woff') format('woff'),
+         url('fonts/MuseoSansRounded-500-webfont.ttf') format('truetype'),
+         url('fonts/MuseoSansRounded-500-webfont.svg#museo_sans_rounded500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    font-family: 'museo_sans_rounded500', sans-serif;
+}
+
+.entry-title {
+    font-weight: 500;
+}
+
+.entry-title > a {
+    color: $brand-f;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+h2,
+h3,
+p,
+ul {
+    line-height: 1.4;
+}
+
+.small { 
+  font-size: 0.9em;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.hide-screen {
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.hide-screen.focusable:active,
+.hide-screen.focusable:focus {
+  position: static;
+
+  overflow: visible;
+  clip: auto;
+
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.textShadow {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1), 0px 0px 6px rgba(0, 0, 0, 1);
+}
