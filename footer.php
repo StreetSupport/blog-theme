@@ -19,7 +19,9 @@
 			<ul class="footer__social-list">
 				<li class="footer__social-item"><a class="facebook-follow" href="https://www.facebook.com/streetsupport"></a></li>
 				<li class="footer__social-item"><a class="twitter-follow" href="https://twitter.com/streetsupportuk"></a></li>
-			</ul><p class="footer__copy">© 2016 Street Support Network</p>
+			</ul>
+			<p class="footer__copy">© 2018 Street Support Network</p>
+			<p class="footer__copy">Kindly hosted by <a target="_blank" href="https://www.34sp.com/">34sp.com</a></p>
 		</div>
 	</footer>
 </div><!-- #page -->
