@@ -169,14 +169,14 @@
                     <li class="nav__item nav__item--mobile-only">
                         <a href="https://streetsupport.net/about/">About</a>
                     </li>
+                    <li class="nav__item nav__item--sub-item nav__item--about-organisations">
+                        <a href="https://streetsupport.net/about/organisations">Organisations</a>
+                    </li>
                     <li class="nav__item nav__item--sub-item nav__item--team">
                         <a href="https://streetsupport.net/about/our-team">Our Team</a>
                     </li>
                     <li class="nav__item nav__item--sub-item nav__item--trustees">
                         <a href="https://streetsupport.net/about/our-trustees">Our Trustees</a>
-                    </li>
-                    <li class="nav__item nav__item--sub-item nav__item--about-organisations">
-                        <a href="https://streetsupport.net/about/organisations">Organisations</a>
                     </li>
                     <li class="nav__item nav__item--sub-item nav__item--jobs">
                         <a href="https://streetsupport.net/about/jobs">Jobs</a>
