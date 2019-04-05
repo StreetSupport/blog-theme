@@ -26,7 +26,7 @@ Template Name: front-page
 				<h3><a class="read-more" href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark">Latest Story</a></h3>
 				<?php get_template_part( 'template-parts/content-front-page-catexcerpt', 'page' );?>
 			</div>
-			<a class="main-image-block__more-link" href="<?php echo get_site_url(); ?>/category/stories">More Stories</a>
+			<a class="main-image-block__more-link" href="<?php echo home_url(); ?>/category/stories">More Stories</a>
 		</div>
 	</div>
 	<?php query_posts('category_name=articles&showposts=1');
@@ -41,7 +41,7 @@ Template Name: front-page
 				<?php get_template_part( 'template-parts/content-front-page-catexcerpt', 'page' );
         ?>
 			</div>
-			<a class="main-image-block__more-link" href="<?php echo get_site_url(); ?>/category/articles">More Articles</a>
+			<a class="main-image-block__more-link" href="<?php echo home_url(); ?>/category/articles">More Articles</a>
 		</div>
 	</div>
 </div>
@@ -57,7 +57,7 @@ Template Name: front-page
 				endwhile;
         ?>
 			</div>
-			<a href="<?php echo get_site_url (); ?>/category/latest-news" class="btn btn--brand-e"><span class="btn__text">Read More News Stories</span></a>
+			<a href="<?php echo home_url (); ?>/category/latest-news" class="btn btn--brand-e"><span class="btn__text">Read More News Stories</span></a>
 		</div>
 	</div>
 </div>

@@ -17,8 +17,8 @@ if ( is_single() ) {
 	<div class="block__content">
 			<h4 class="page-title">
 				<a href="https://streetsupport.net">Home</a> &gt; 
-				<a href="<?php echo get_site_url(); ?>">News</a> &gt;
-				<a href="<?php echo get_site_url(); ?>/category/<?php echo $category[0]->slug; ?>"><?php echo $category[0]->name; ?></a> &gt;
+				<a href="<?php echo home_url(); ?>">News</a> &gt;
+				<a href="<?php echo home_url(); ?>/category/<?php echo $category[0]->slug; ?>"><?php echo $category[0]->name; ?></a> &gt;
 				<?php echo single_post_title(); ?>
 			</h4>
 	</div>

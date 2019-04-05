@@ -32,7 +32,7 @@ $hubName = strtoupper($slug[0]) . substr($slug, 1)
 				<?php get_template_part( 'template-parts/content-front-page-catexcerpt', 'page' );?>
 			</div>
 
-			<a class="main-image-block__more-link" href="<?php echo get_site_url(); ?>/category/stories/?tag=<?= $slug ?>">More <?= $hubName ?> Stories</a>
+			<a class="main-image-block__more-link" href="<?php echo home_url(); ?>/category/stories/?tag=<?= $slug ?>">More <?= $hubName ?> Stories</a>
 		</div>
 	</div>
 	<?php query_posts('category_name=articles&tag=' . $slug . '&showposts=1');
@@ -48,7 +48,7 @@ $hubName = strtoupper($slug[0]) . substr($slug, 1)
         ?>
 			</div>
 
-			<a class="main-image-block__more-link" href="<?php echo get_site_url(); ?>/category/articles/?tag=<?= $slug ?>">More <?= $hubName ?> Articles</a>
+			<a class="main-image-block__more-link" href="<?php echo home_url(); ?>/category/articles/?tag=<?= $slug ?>">More <?= $hubName ?> Articles</a>
 		</div>
 	</div>
 </div>
@@ -65,7 +65,7 @@ $hubName = strtoupper($slug[0]) . substr($slug, 1)
         ?>
 			</div>
 
-			<a href="<?php echo get_site_url (); ?>/category/latest-news/?tag=<?= $slug ?>" class="btn btn--brand-e"><span class="btn__text">Read More <?= $hubName ?> News Stories</span></a>
+			<a href="<?php echo home_url (); ?>/category/latest-news/?tag=<?= $slug ?>" class="btn btn--brand-e"><span class="btn__text">Read More <?= $hubName ?> News Stories</span></a>
 		</div>
 	</div>
 </div>

@@ -34,7 +34,7 @@ get_header(); ?>
 				<div id="post-divider">
 					<span class="divider"><span class="divider__line"></span>
 					<span class="divider__background">
-						<img src="<?php echo get_site_url ();  ?>/wp-content/themes/ssnblog/images/site_icon.svg" id="logo" alt="street support logo"></span></span>
+						<img src="<?php echo home_url ();  ?>/wp-content/themes/ssnblog-git/images/site_icon.svg" id="logo" alt="street support logo"></span></span>
 					</div>
 <?php
 				endif;
