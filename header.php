@@ -122,21 +122,30 @@
                     <li class="nav__item nav__item--mobile-only">
                         <a href="https://streetsupport.net/locations/">Locations</a>
                     </li>
+                    <li class="nav__item nav__item--sub-item nav__item--blackpool" data-location="blackpool"><a href="https://streetsupport.net/blackpool">Blackpool</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--bolton" data-location="bolton"><a href="https://streetsupport.net/bolton">Bolton</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--bournemouth" data-location="bournemouth"><a href="https://streetsupport.net/bournemouth">Bournemouth, Christchurch &amp; Poole.</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--bradford" data-location="bradford"><a href="https://streetsupport.net/bradford">Bradford</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--bury" data-location="bury"><a href="https://streetsupport.net/bury">Bury</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--cambridgeshrie" data-location="cambridgeshire"><a href="https://streetsupport.net/cambridgeshire">Cambridgeshire</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--edinburgh" data-location="edinburgh"><a href="https://streetsupport.net/edinburgh">Edinburgh</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--leeds" data-location="leeds"><a href="https://streetsupport.net/leeds">Leeds</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--liverpool" data-location="liverpool"><a href="https://streetsupport.net/liverpool">Liverpool</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--luton" data-location="luton"><a href="https://streetsupport.net/luton">Luton</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--manchester" data-location="manchester"><a href="https://streetsupport.net/manchester">Manchester</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--bury" data-location="nottingham"><a href="https://streetsupport.net/nottingham">Nottingham</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--oldham" data-location="oldham"><a href="https://streetsupport.net/oldham">Oldham</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--portsmouth" data-location="portsmouth"><a href="https://streetsupport.net/portsmouth">Portsmouth</a></li>
-<li class="nav__item nav__item--sub-item nav__item--rochdale" data-location="rochdale"><a href="https://streetsupport.net/rochdale">Rochdale</a></li>
-<li class="nav__item nav__item--sub-item nav__item--stockport" data-location="stockport"><a href="https://streetsupport.net/stockport">Stockport</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--reading" data-location="reading"><a href="https://streetsupport.net/reading">Reading</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--rochdale" data-location="rochdale"><a href="https://streetsupport.net/rochdale">Rochdale</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--salford" data-location="salford"><a href="https://streetsupport.net/salford">Salford</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--southampton" data-location="southampton"><a href="https://streetsupport.net/southampton">Southampton</a></li>
+                    <li class="nav__item nav__item--sub-item nav__item--stockport" data-location="stockport"><a href="https://streetsupport.net/stockport">Stockport</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--tameside" data-location="tameside"><a href="https://streetsupport.net/tameside">Tameside</a></li>
                     <li class="nav__item nav__item--sub-item nav__item--trafford" data-location="trafford"><a href="https://streetsupport.net/trafford">Trafford</a></li>
-                    <li class="nav__item nav__item--sub-item nav__item--wigan-and-leigh" data-location="wigan-and-leigh"><a href="https://streetsupport.net/wigan-and-leigh">Wigan and Leigh</a></li>        </ul>
+                    <li class="nav__item nav__item--sub-item nav__item--wakefield" data-location="wakefield"><a href="https://streetsupport.net/wakefield">Wakefield District</a></li>        
+                    <li class="nav__item nav__item--sub-item nav__item--wigan-and-leigh" data-location="wigan-and-leigh"><a href="https://streetsupport.net/wigan-and-leigh">Wigan and Leigh</a></li>        
+                  </ul>
             </li>
             <li class="nav__item nav__item--news">
                 <a href="/" class="nav__item-link nav__item-link--has-sub-nav">News</a>
